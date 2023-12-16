@@ -1,0 +1,48 @@
+.car 
+{
+    margin-left: calc(100% - 250px);
+    width: 200px;
+    height: 200px;
+}
+
+.body1 
+{
+    width: 85px;
+    height: 30px;
+    background-color:black;
+}
+
+.body2
+{
+    width: 150px;
+    height: 35px;
+    background-color: black;
+}
+
+.wheel 
+{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    border-radius: 100%;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+.car
+{
+    animation: miiiy 1s;
+}
+
+@keyframes miiiy
+{
+    from 
+    {
+        margin-left: 0px;
+    }
+    to 
+    {
+        margin-left: calc(100% - 250px);
+    }
+}
